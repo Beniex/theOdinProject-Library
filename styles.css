@@ -1,0 +1,51 @@
+#cards{
+    display: flex;
+}
+
+.formSpace{
+    display: flex ;
+    justify-content: space-evenly; 
+    flex-direction: column;
+}
+
+.formSpace input{
+    margin: 15px;
+}
+
+
+
+.card{
+    border: solid rgb(255, 216, 42) 10px;
+    margin:  30px;
+    border-radius: 12%;
+    color: whitesmoke;
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: column;
+}
+
+.card div{
+    flex : 1; 
+    padding: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    color: aliceblue;
+    background-color: coral;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+body{
+    background-color: rgb(155, 155, 155);
+}
